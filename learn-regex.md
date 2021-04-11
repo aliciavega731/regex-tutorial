@@ -1,4 +1,4 @@
-![Banner](./assets/Learn-Regex.gif)
+![Banner](./assets/Learn-Regex1.gif)
 
 # What the heck is RegEx?
 
