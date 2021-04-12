@@ -50,7 +50,7 @@ There are three character sets in the expression. Each character set in the expr
 
 ### Flags
 
-Flags, or modifiers, modify the output of the regular expression and can be used in any order. Some common flags include: 
+Flags, or modifiers, modify the output of the regular expression and can be used in any order.
 
 - Ignore case `i` that makes the whole expression case-sensitive. 
 - Global search `g` that retains the index of the last match, allowing subsequent searches to start from the end of the previous match.
@@ -64,10 +64,10 @@ In the example expression, there are three capturing groups and can be found by 
 
 ### Greedy and Lazy Match
 
-In very basic terms, <span style="color: red;">greedy</span> match means the expression will match the largest possible group, while on the other hand, <span style="color: green;">lazy</span> will match the smallest possible group. 
+In very basic terms, <span style="color: red;">greedy</span> match means the expression will match the largest possible group, while on the other hand, <span style="color: blue;">lazy</span> will match the smallest possible group. 
 
     ^(\w+)(B+)$          (greedy)
-    ^(\w+?)(B+)$         (minimal)
+    ^(\w+?)(B+)$         (lazy)
 
 ### Boundaries
 
