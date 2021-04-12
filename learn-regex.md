@@ -4,7 +4,7 @@
 
 Regular expressions, better known as regex or regexp, are one of the most effective and widely used programming techniques. They are text strings that describes a search pattern and is mostly used string matching. You can think of it as “find and replace” tool we've known to appreciate in document applications. They are available in almost every language and help us to verify user input, conduct searches, and even test code.
 
-You can use RegExr (https://regexr.com/) to test out your regex.
+Pro tip: You can use [RegExr](https://regexr.com/) to test out your regex.
 
 ## Summary
 
@@ -42,7 +42,7 @@ The `{2,6}` quantifier can be found in the third group of the expression and it 
 
 ### OR Operator
 
-SOMETHING HERE?
+The OR opertator, or alternation, is denoted by the pipe symbol `|`, which enables one of two subexpressions to be matched. For example, the regex `apples|bananas` will match the text apples and the text bananas.
 
 ### Character Classes
 
