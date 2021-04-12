@@ -20,7 +20,6 @@ After researching and gaining a better understanding of what different parts of 
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
@@ -64,21 +63,20 @@ Grouping characters in a regular expression are denoted by parenthesis `(...)`.
 
 In the example expression, there are three capturing groups and can be found by the start of the opening parenthesis and the closing parenthesis.
 
-### Bracket Expressions
-
-SOMETHING HERE?
-
 ### Greedy and Lazy Match
 
-DO SOME RESEARCH
+In very basic terms, <span style="color: red;">greedy</span> match means the expression will match the largest possible group, while on the other hand, <span style="color: green;">lazy</span> will match the smallest possible group. 
+
+    ^(\w+)(B+)$          (greedy)
+    ^(\w+?)(B+)$         (minimal)
 
 ### Boundaries
 
-Word boundaries `/b` Matches a word boundary position between a word character and non-word character or position (start / end of string). Not word boundaries `/B` match any position that is not a word boundary. This matches a position, not a character.
+Word boundaries `/b` matches a word boundary position (start / end of string) between a word character and a non-word character or position. Any location that isn't a word border is matched by not word boundaries `/B`. This corresponds to a location rather than a character.
 
 ### Back-references
 
-SOMETHING HERE
+In a regular expression, a backreference detects a previously matched category and searches for the same text again. When you want to search for recurring words in a letter, you can use backreferences.
 
 ### Look-ahead and Look-behind
 
