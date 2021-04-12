@@ -23,7 +23,6 @@ After researching and gaining a better understanding of what different parts of 
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -78,12 +77,8 @@ Word boundaries `/b` matches a word boundary position (start / end of string) be
 
 In a regular expression, a backreference detects a previously matched category and searches for the same text again. When you want to search for recurring words in a letter, you can use backreferences.
 
-### Look-ahead and Look-behind
-
-SOMETHING HERE
-
 ## Author
 
-I am currently a University of Arizona coding bootcamp student with her eyes set on front-end web development. Let's connect. 
+I am currently a University of Arizona coding bootcamp student with eyes set on front-end web development. Let's connect. 
 
 - [Alicia Vega's Github](https://github.com/aliciavega731)
